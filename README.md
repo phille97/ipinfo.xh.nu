@@ -7,7 +7,7 @@ in a browser: https://ipinfo.xh.nu/
 from terminal:
 
 ```
-# either v4 or v6
+# dualstack, so might return ipv4 or ipv6 address depending on your setup
 curl ip.xh.nu
 
 # ipv4
