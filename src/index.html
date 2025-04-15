@@ -80,16 +80,16 @@
     <h1>Your IP Addresses</h1>
 
     <div class="ip-container">
-        <h2>IPv4:</h2>
-        <div id="ipv4" class="ip-address">
-            <span class="loading">Loading IPv4 address...</span>
+        <h2>IPv6:</h2>
+        <div id="ipv6" class="ip-address">
+            <span class="loading">Loading IPv6 address...</span>
         </div>
     </div>
 
     <div class="ip-container">
-        <h2>IPv6:</h2>
-        <div id="ipv6" class="ip-address">
-            <span class="loading">Loading IPv6 address...</span>
+        <h2>IPv4:</h2>
+        <div id="ipv4" class="ip-address">
+            <span class="loading">Loading IPv4 address...</span>
         </div>
     </div>
 
@@ -128,8 +128,8 @@
         }
 
         document.addEventListener('DOMContentLoaded', function() {
-            fetchIP(4);
             fetchIP(6);
+            fetchIP(4);
         });
     </script>
 </body>
