@@ -2,4 +2,4 @@
 
 set -xe
 
-rsync -av src/ philip@chungus.xh.nu:/opt/ipinfo-xh/html/
+rsync -av src/ root@chungus3.xh.nu:/opt/ipinfo-xh/html/
